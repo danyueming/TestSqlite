@@ -1,0 +1,7 @@
+﻿  TestSqlite.cpp
+TestSqlite.obj : error LNK2019: 无法解析的外部符号 sqlite3_close，该符号在函数 main 中被引用
+TestSqlite.obj : error LNK2019: 无法解析的外部符号 sqlite3_exec，该符号在函数 main 中被引用
+TestSqlite.obj : error LNK2019: 无法解析的外部符号 sqlite3_open，该符号在函数 main 中被引用
+TestSqlite.obj : error LNK2019: 无法解析的外部符号 sqlite3_errmsg，该符号在函数 main 中被引用
+..\lib\sqlite3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\MFCCode\TestSqlite\x64\Debug\TestSqlite.exe : fatal error LNK1120: 4 个无法解析的外部命令
